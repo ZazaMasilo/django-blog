@@ -12,6 +12,9 @@ class PostAdmin(SummernoteModelAdmin):
     prepopulated_fields = {'slug': ('title',)}
     summernote_fields = ('content',)
 
+  
+
 # Register your models here.
 admin.site.register(Comment)
+
 
